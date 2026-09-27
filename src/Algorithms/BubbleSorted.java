@@ -1,4 +1,4 @@
-package Algirithms;
+package Algorithms;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -9,7 +9,7 @@ public class BubbleSorted {
 
         //Arrays
         int[] array = {5,3,2,1,6};
-        System.out.println("Массив до сортировки: " + array);
+        System.out.println("Массив до сортировки: " + Arrays.toString(array));
         BubbleSortedToArrays(array);
 
         //List
